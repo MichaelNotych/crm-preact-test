@@ -1,0 +1,39 @@
+body {
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "TildaSans", sans-serif;
+	background-color: #f0f0f0;
+	color: #333;
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+body *,
+body *::before,
+body *::after {
+	box-sizing: border-box;
+}
+
+
+button {
+	background-color: rgba(0, 0, 0, 0);
+	border: none;
+	margin: 0;
+	padding: 0;
+	border-radius: 0;
+	font: inherit;
+	cursor: pointer;
+}
+
+
+ul,
+ol {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
